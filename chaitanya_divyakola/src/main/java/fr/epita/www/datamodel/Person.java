@@ -8,7 +8,8 @@ public class Person implements Comparable<Person>{
 	private Integer height;
 	private Integer weight;
 	
-	
+	public Person(){
+	}
 	public String getName() {
 		return name;
 	}
@@ -49,9 +50,6 @@ public class Person implements Comparable<Person>{
 		this.weight = weight;
 	}
 
-	public Person() {
-		
-	}
 	
 	@Override
 	public int compareTo(Person person) {
